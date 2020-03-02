@@ -1,7 +1,7 @@
 {
-  "name": "Avery Websites",
+  "name": "gatsby-starter-default",
   "private": true,
-  "description": "Landing page for Avery Websites",
+  "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Jereme Daniels",
   "dependencies": {
