@@ -1,0 +1,10 @@
+@import './reset.scss';
+
+.container {
+    width: 95%;
+    height: 300px;
+    background: linear-gradient(to bottom, $background 10%, $lightGreen 100%);
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 5px $darkGreen;
+}
