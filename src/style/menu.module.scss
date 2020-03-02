@@ -2,10 +2,39 @@
 
 .menu {
     position: fixed;
-    width: 50vw;
-    left: 50vw;
+    width: 60vw;
+    left: 40vw;
     top: 75px;
     min-height: 45%;
     background: $background;
     z-index: 20;
+    box-shadow: -5px 5px 10px darken($darkGreen, 20%);
+    border-radius: 3px 0 0 3px;
+    @include desktop() {
+        top: 100px;
+        left: 60vw;
+        width: 40vw;
+    }
+}
+.inner {
+    height: 45vh;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+    }
+    a {
+        text-decoration: none;
+        color: $font;
+    }
+    li {
+        font-size: 1.8rem;
+        padding: 5px 5px;
+        @include desktop() {
+            font-size: 2.5rem;
+            padding: 10px 10px;
+        }
+    }
 }

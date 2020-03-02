@@ -1,20 +1,25 @@
 import React from 'react'
+import { Link } from 'gatsby'
+import style from '../style/menu.module.scss'
 
 const Menu = () => {
     return (
-        <div>
-            <ul>
-                <li>
-                    1
-                </li>
-                <li>
-                    2
-                </li>
-                <li>
-                    3
-                </li>
-            </ul>
-        </div>
+      <div className={style.inner}>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/">Projects</Link>
+          </li>
+          <li>
+            <Link to="/">Contact</Link>
+          </li>
+          <li>
+            <Link to="/">Developer Page</Link>
+          </li>
+        </ul>
+      </div>
     )
 }
 

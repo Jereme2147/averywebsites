@@ -5,6 +5,12 @@
         width: 90px;
         height: 90px;
     }
+    @include tiny() {
+        width: 50px;
+        height: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
     align-self: center;
     background: $black;
     width: 65px;
@@ -22,4 +28,7 @@
 }
 .h1 {
     font-size: 4rem;
+    @include tiny() {
+        font-size: 3rem;
+    }
 }

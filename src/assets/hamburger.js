@@ -56,6 +56,6 @@ class Hamburger extends React.Component {
       </div>
     )
   }
-}
+} 
 
 export default Hamburger

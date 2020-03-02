@@ -4,8 +4,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import style from "../style/layout.module.scss"
-import Banner from "../assets/banner.js"
-import Variables from "./variables"
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -20,9 +19,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Banner 
-        banner={Variables.landingBanner}
-      />
       <div className={style.container}>
         <main>{children}</main>
         <footer>

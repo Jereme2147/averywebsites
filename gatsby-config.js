@@ -3,8 +3,8 @@
 module.exports = {
   siteMetadata: {
     title: `Avery Websites`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Avery website landing`,
+    author: `Jereme Daniels`,
   },
   plugins: [
     `gatsby-plugin-sass`,
