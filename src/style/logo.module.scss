@@ -1,0 +1,25 @@
+@import './reset.scss';
+
+.logo {
+    @include desktop() {
+        width: 90px;
+        height: 90px;
+    }
+    align-self: center;
+    background: $black;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid $white;
+    margin-left: 20px;
+    font-size: 7rem;
+    h1 {
+        color: $white;
+    }
+}
+.h1 {
+    font-size: 4rem;
+}

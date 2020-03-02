@@ -1,0 +1,11 @@
+@import './reset.scss';
+
+.menu {
+    position: fixed;
+    width: 50vw;
+    left: 50vw;
+    top: 75px;
+    min-height: 45%;
+    background: $background;
+    z-index: 20;
+}
