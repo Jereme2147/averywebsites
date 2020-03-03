@@ -5,6 +5,7 @@ import Variables from './variables.js'
 import SmallImage from './smallimage.js'
 
 const getSize = () => {
+    
     var x = window.matchMedia(`${Variables.small}`)
     if(x.matches) {
         return (
@@ -16,29 +17,30 @@ const getSize = () => {
         )
     }
 }
+
 const picStyle = {
   imageContainer: {
-    width: `${getSize() ? "100px" : "200px"}`,
-    height: `${getSize() ? "100px" : "200px"}`,
+    width: '25%',
+    maxWidth: '300px',
   },
   image: {
     width: "100%",
     height: "100%",
   },
   imageContainer2: {
-    // width: `${getSize() ? "100%" : "550px"}`,
     width: '100%',
 
   },
   image2: {
-    // width: "100%",
-    width: `${getSize() ? '100%' : '50%'}`,
+    width: '100%',
+    maxWidth: '600px',
     alignSelf: 'center',
     margin: 'auto'
   },
 }
 
 const GatsDiv = () => {
+  
     return (
       <div className={style.div}>
         <h2>GatsbyJS</h2>

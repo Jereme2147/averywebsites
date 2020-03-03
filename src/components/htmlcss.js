@@ -6,46 +6,45 @@ import SmallImage from './smallimage.js'
 
 const picStyle = {
   imageContainer: {
-    width: '25%',
-    maxWidth: '300px',
+    width: "25%",
+    maxWidth: "300px",
   },
   image: {
     width: "100%",
     height: "100%",
   },
   imageContainer2: {
-    width: '100%',
-
+    width: "100%",
   },
   image2: {
-    width: '100%',
-    maxWidth: '600px',
-    alignSelf: 'center',
-    margin: 'auto'
+    width: "100%",
+    maxWidth: "600px",
+    alignSelf: "center",
+    margin: "auto",
   },
 }
 
-const WpDiv = () => {
+const HtmlCss = () => {
     return (
       <div className={style.div}>
-        <h2>WordPress</h2>
+        <h2>HTML CSS JavaScript</h2>
         <SmallImageSVG
           path={{
-            title: Variables.wplogo,
-            alt: "wordpress logo",
+            title: Variables.htmlCssJs,
+            alt: "html css js logos",
             style: picStyle.image,
             containerStyle: picStyle.imageContainer,
           }}
         />
-        <h3>-The worlds favorite platform-</h3>
+        <h3>-Sometimes the basics are best-</h3>
         <p>
-          "WordPress powers more than 35% of the web, from brand new bloggers to the 
-          world's biggest brands"
+          Nothing is faster than a static site built with from foundations of 
+          web development. 
         </p>
         <SmallImage
           path={{
-            title: Variables.wpDescription,
-            alt: "gatsby description",
+            title: Variables.html2,
+            alt: "html description",
             style: picStyle.image2,
             containerStyle: picStyle.imageContainer2,
           }}
@@ -54,4 +53,4 @@ const WpDiv = () => {
     )
 }
 
-export default WpDiv
+export default HtmlCss

@@ -4,6 +4,7 @@ import style from "../style/tech.module.scss"
 import TechDiv from "../assets/techDiv.js"
 import GatsDiv from "../components/gatsdiv.js"
 import WpDiv from "../components/wpDiv.js"
+import HtmlCss from "./htmlcss.js"
 
 const Tech = () => {
     return (
@@ -24,6 +25,9 @@ const Tech = () => {
         </TechDiv>
         <TechDiv>
           <WpDiv />
+        </TechDiv>
+        <TechDiv>
+          <HtmlCss />
         </TechDiv>
       </Container>
     )

@@ -9,6 +9,8 @@ const Variables = {
   //LOGOS
   gatsby: "gatsby-icon.png",
   wplogo: "wplogo.png",
+  htmlCssJs: 'htmlcssjs.png',
+  html2: 'pure.jpeg',
   gastbyDesription: "gatsby-description.png",
   wpDescription: "wp2.png",
   gatsby2: "gatsby2.jpg",
@@ -20,5 +22,6 @@ const Variables = {
   //*****BREAK POINTS *******/
   small: "(max-width: 900px)",
   xsmall: "(max-width: 300px)",
+  large: "(min-width: 900px)",
 }
 export default Variables
