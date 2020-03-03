@@ -12,7 +12,6 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Banner banner={Variables.landingBanner} />
     <Tech />
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
