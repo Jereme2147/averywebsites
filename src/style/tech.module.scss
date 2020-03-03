@@ -2,4 +2,31 @@
 .div {
     width: 95%;
     max-width: 1200px;
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.8rem;
+        margin: 20px 0;
+        text-shadow: 2px 2px 2px darken($background, 15%);
+        @include desktop(){
+            font-size: 2.8rem;
+        }
+    }
+    span {
+        border-bottom: 2px solid $darkGreen;
+        @include desktop(){
+            border-bottom: 4px solid $darkGreen;
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        padding: 5px;
+        margin: 10px 0;
+        border-left: 10px solid $lightBlue;
+        @include desktop(){
+            font-size: 2rem;
+            margin: 20px 0;
+            padding: 15px;
+        }
+    }
 }

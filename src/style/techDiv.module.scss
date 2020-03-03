@@ -2,9 +2,11 @@
 
 .container {
     width: 95%;
-    height: 300px;
-    background: linear-gradient(to bottom, $background 10%, $lightGreen 100%);
+    // height: 300px;
     border-radius: 5px;
     margin: 20px 0;
-    box-shadow: 5px 5px 5px $darkGreen;
+    display: flex;
+    justify-content: center;
+    // box-shadow: 5px 5px 5px darken($background, 5%);
+
 }
