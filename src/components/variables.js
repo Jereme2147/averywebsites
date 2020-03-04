@@ -17,11 +17,15 @@ const Variables = {
   gatsbywp: 'gatsbywp.jpg',
   //banners and fullscreen images
   landingBanner: "sky1.jpg",
+  contactBanner: "contact.jpg",
   // small servcies images
   //safety pics
   //*****BREAK POINTS *******/
   small: "(max-width: 900px)",
   xsmall: "(max-width: 300px)",
   large: "(min-width: 900px)",
+  // social
+  facebook: "facebook.png",
+  github: "github.png",
 }
 export default Variables

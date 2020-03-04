@@ -1,0 +1,33 @@
+@import "./reset.scss";
+
+.form {
+    width: 75%;
+}
+
+p {
+    font-size: 1.5rem;
+    width: 100%;
+    
+}
+input, textarea {
+    background: $background;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid $darkGreen;
+    width: 100%;
+}
+input {
+    // width: 100%;
+}
+label {
+    width: 100%;
+}
+button {
+    background: $submit;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: $white;
+    font-size: 1.2rem;
+}

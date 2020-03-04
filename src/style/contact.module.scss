@@ -1,0 +1,15 @@
+@import "./reset.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px darken($background, 20%);
+    margin: 10px;
+}
+}
+.form{
+    width: 95%;
+}

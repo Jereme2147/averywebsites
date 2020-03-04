@@ -1,0 +1,42 @@
+@import "./reset.scss";
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    min-height: 65vh;
+}
+.inner {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    @include desktop() {
+        width: 80%;
+        max-width: 1000px;
+    }
+    h2 {
+        font-size: 2rem;
+        text-shadow: 2px 2px 2px darken($background, 20%);
+        margin: 10px 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+}
+.imgOne {
+    width: 80%;
+    align-self: center;
+    box-shadow: 2px 2px 2px darken($background, 10%);
+    margin: 10px 0 20px 0;
+}
+.imgTwo {
+    width: 60%;
+    align-self: center;
+    box-shadow: 2px 2px 2px darken($background, 10%);
+    margin: 10px 0 20px 0;
+}
