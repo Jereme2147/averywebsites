@@ -42,6 +42,7 @@ class Hamburger extends React.Component {
           className={this.state.burgerClass.join(" ")}
           type="button"
           onClick={this.handleClick}
+          aria-label="Menu Button"
         >
           <span className={hamburgerStyles.hamburgerBox}>
             <span className={hamburgerStyles.hamburgerInner}></span>

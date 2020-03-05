@@ -16,7 +16,7 @@ const Contact = () => {
         <Banner banner={Variables.contactBanner} />
         <div className={style.container}>
           <h1>Contact</h1>
-          <div>
+          <div className={style.social}>
             <a href="#">
               <SmallImageSVG
                 path={{
@@ -34,7 +34,17 @@ const Contact = () => {
                   alt: "github logo",
                   style: { width: "75px", height: "75px" },
                   containerStyle: { width: "75px", height: "75px" },
-                }} 
+                }}
+              />
+            </a>
+            <a href="mailto:averywebsites@jeremedaniels.com">
+              <SmallImageSVG
+                path={{
+                  title: Variables.email,
+                  alt: "email logo",
+                  style: { width: "75px", height: "75px" },
+                  containerStyle: { width: "75px", height: "75px" },
+                }}
               />
             </a>
           </div>

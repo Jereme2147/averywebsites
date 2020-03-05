@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 95%;
+    max-width: 1000px;
+    justify-content: center;
+    margin: auto;
     h1 {
     font-size: 2.5rem;
     text-shadow: 2px 2px 2px darken($background, 20%);
@@ -12,4 +16,18 @@
 }
 .form{
     width: 95%;
+}
+.social {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    a {
+        padding-bottom: 4px;
+        cursor: pointer;
+        &:hover {
+            border-bottom: 2px solid $lightBlue;
+            padding-bottom: 2px;
+        }
+    }
 }

@@ -18,8 +18,7 @@ const Variables = {
   //banners and fullscreen images
   landingBanner: "sky1.jpg",
   contactBanner: "contact.jpg",
-  // small servcies images
-  //safety pics
+  blogPage: "blogPage.jpg",
   //*****BREAK POINTS *******/
   small: "(max-width: 900px)",
   xsmall: "(max-width: 300px)",
@@ -27,5 +26,6 @@ const Variables = {
   // social
   facebook: "facebook.png",
   github: "github.png",
+  email: "emailLogo.png",
 }
 export default Variables
