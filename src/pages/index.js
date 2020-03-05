@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Variables from "../components/variables"
 import Tech from '../components/tech.js'
-import LandingBlogPost from '../components/LandingBlogPost.js'
+import LandingBlogPost from '../components/landingBlogPost.js'
 
 const IndexPage = () => (
   <Layout>
