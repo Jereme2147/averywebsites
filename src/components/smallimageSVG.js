@@ -7,7 +7,7 @@ import Img from "gatsby-image"
                 path={{
                   title: Variables.truck500,
                   alt: "delivery truck",
-                  style: style.image,
+                  style: style.image, 
                   containerStyle: style.imageContainer,
                 }}
               /> */}

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Variables from "../components/variables"
 import Form from "../components/form.js"
 import style from "../style/contact.module.scss"
-import SmallImageSVG from '../components/SmallImageSVG.js'
+import SmallImageSVG from '../components/smallimageSVG.js'
 
 const Contact = () => {
     return (

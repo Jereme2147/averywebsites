@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
-import style from '../style/landingBlogPost.module.scss'
+import LandingBlogStyle from '../style/landingBlogPost.module.scss'
 
 const LandingBlogPost = () => {
     const data = useStaticQuery(graphql`
@@ -35,13 +35,13 @@ const LandingBlogPost = () => {
     `)
 
     return (
-      <div className={style.container}>
+      <div className={LandingBlogStyle.container}>
         <Link
           to={`/blog/${data.allMarkdownRemark.edges[0].node.fields.slug}`}
-          className={style.inner}
+          className={LandingBlogStyle.inner}
         >
-          <h2 className={style.h2}>Latest Post</h2>
-          <div className={style.meta}>
+          <h2 className={LandingBlogStyle.h2}>Latest Post</h2>
+          <div className={LandingBlogStyle.meta}>
             <h3>{data.allMarkdownRemark.edges[0].node.frontmatter.title}</h3>
             <h3>|</h3>
             <h3>Type: {data.allMarkdownRemark.edges[0].node.frontmatter.section}
@@ -49,7 +49,7 @@ const LandingBlogPost = () => {
           </div>
           <Img 
             fluid={data.allMarkdownRemark.edges[0].node.frontmatter.featuredImage.childImageSharp.fluid}
-            className={style.img}
+            className={LandingBlogStyle.img}
             alt={"blog post image"}
           />
         </Link>
