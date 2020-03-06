@@ -1,0 +1,65 @@
+@import './reset.scss';
+.container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+          }
+.title {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
+  text-shadow: 2px 2px 2px darken($background, 20%);
+  @include desktop() {
+    font-size: 2.3rem;
+  }
+}
+          
+.link {
+            // flexGrow: 1;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 550px;
+            margin: 20px;
+            text-decoration: none;
+            border-bottom: 2px solid $darkGreen;
+            padding-bottom: 20px;
+            cursor: pointer;
+          }
+.imageContainer {
+  width: 50%;
+}
+.image {
+            width: 100%;
+            // height: 100px;
+            @include desktop() {
+              // height: 150px;
+            }
+          }
+.h2 {
+            width: 100%;
+            font-size: 1.8rem;
+            text-shadow: 2px 2px darken($background, 10%);
+            margin: 0 0 10px 0;
+          }
+.h3 {
+            font-size: 1.5rem;
+            margin: 0 10px 10px 10px;
+            color: $darkGreen;
+            text-shadow: 2px 2px darken($background, 10%);
+          }
+.p {
+            font-size: 1.2rem;
+            @include desktop() {
+              font-size: 2rem;
+            }
+          }
+.meta {
+            width: 45%;
+          }

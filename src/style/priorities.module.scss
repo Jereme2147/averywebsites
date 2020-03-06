@@ -1,0 +1,40 @@
+@import './reset.scss';
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid $lightBlue;
+    margin-bottom: 10px;
+    @include desktop() {
+        flex-direction: row;
+    }
+}
+.imageDiv {
+    @include desktop() {
+        width: 50%;
+    }
+    width: 60%;
+    align-self: center;
+    // height: 50%;
+}
+.breakdown {
+    @include desktop() {
+        width: 50%;
+        h3 {
+        font-size: 2rem;
+        margin: 20px 0;
+        }
+        font-size: 1.7rem;
+    }
+    width: 93%;
+    h3 {
+        font-size: 1.7rem;
+        margin: 10px 0;
+        border-left: 5px solid $lightBlue;
+        padding: 0 0 0 5px;
+    }
+    font-size: 1.3rem;
+    margin-left: 10px;
+    padding: 0 5px 0 0;
+}

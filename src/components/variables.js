@@ -27,5 +27,8 @@ const Variables = {
   facebook: "facebook.png",
   github: "github.png",
   email: "emailLogo.png",
+
+  //about 
+  phone: "iphone.png",
 }
 export default Variables
