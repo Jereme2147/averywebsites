@@ -20,7 +20,7 @@
     text-align: center;
     font-size: 2rem;
     text-shadow: 2px 2px 2px darken($background, 20%);
-    margin: 10px 0;
+    margin: 20px 0;
     @include desktop() {
         font-size: 3rem;
     }
@@ -33,8 +33,9 @@
     h3 {
         font-size: 1.5rem;
         padding: 5px;
+        margin: 20px 0;
         @include desktop() {
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
     }
 }
@@ -45,5 +46,6 @@
     box-shadow: 10px 10px 10px darken($background, 20%);
     @include desktop() {
         width: 75%;
+        max-width: 500px;
     }
 }

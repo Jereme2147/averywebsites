@@ -39,7 +39,8 @@ const SmallImage = ({ path }) => {
               style={path.style}
             />
           )
-        }
+        } 
+        
       })}
     </div>
   )

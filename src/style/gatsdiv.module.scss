@@ -6,17 +6,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 10px;
     @include desktop() {
         border-top: 4px solid $darkGreen;
         margin-top: 50px;
+        padding-top: 30px;
     }
     h2 {
         width: 100%;
         font-size: 2rem;
         text-shadow: 2px 2px 2px darken($background, 15%);
-        margin: 20px 0;
+        margin: 30px 0 40px 0;
         @include desktop() {
-            font-size: 3.5rem;
+            font-size: 3rem;
+            margin-bottom: 50px;
         }
     }
     h3 {
@@ -26,20 +29,20 @@
         margin: 10px 0;
         width: 60%;
         @include desktop() {
-            font-size: 4rem;
+            font-size: 3rem;
         }
     }
     p {
         width: 100%;
         padding: 5px;
-        margin: 10px 0;
+        margin: 30px 0;
         font-size: 1.3rem;
         border-left: 5px solid $lightBlue;
         @include desktop() {
-            font-size: 2.5rem;
+            font-size: 2rem;
             padding: 20px;
             border-left: 10px solid $lightBlue;
-            margin: 20px 0;
+            margin: 50px 0;
         }
     }
 }

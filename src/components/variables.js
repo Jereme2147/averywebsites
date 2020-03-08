@@ -30,5 +30,6 @@ const Variables = {
 
   //about 
   phone: "iphone.png",
+  speed: "lighthouse.jpg",
 }
 export default Variables

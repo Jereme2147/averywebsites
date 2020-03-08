@@ -30,20 +30,20 @@ const imageStyle = {
         <div className={style.breakdown}>
           <h3>Every site is built with these priorities:</h3>
           <ul>
-            <li>"Mobile First" Design</li>
-            <ul>
+            <li>Mobile First Design</li>
+            {/* <ul className={style.ul}>
                 <li>The first interaction with your business is almost always from a mobile device.</li>
-            </ul>
+            </ul> */}
             <li>Speed</li>
-                <ul>
+                {/* <ul className={style.ul}>
                     <li>
                         Sites that don't load fast are quickly passed by.
                     </li>
-                </ul>
+                </ul> */}
             <li>Structurally Perfect</li>
-                <ul>
+                {/* <ul className={style.ul}>
                     <li>Google prioritizes well built sites with no errors.</li>
-                </ul>
+                </ul> */}
           </ul>
           <h3>"Content gets clicks, clicks get ranking, ranking gets customers"</h3>
         </div>

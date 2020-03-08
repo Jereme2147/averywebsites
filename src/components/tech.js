@@ -20,7 +20,7 @@ const Tech = () => {
             we can decide on a plan that fits your needs and budget. 
           </p>
         </div>
-        <TechDiv>
+        <TechDiv> 
           <GatsDiv />
         </TechDiv>
         <TechDiv>

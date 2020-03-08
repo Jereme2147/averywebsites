@@ -53,8 +53,6 @@ const LandingBlogPost = () => {
             alt={"blog post image"}
           />
         </Link>
-
-        {console.log(data)}
       </div>
     )
 }

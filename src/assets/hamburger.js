@@ -51,6 +51,8 @@ class Hamburger extends React.Component {
         <div
           style={{ display: this.state.isShowing ? "block" : "none" }}
           className={style.menu}
+          onClick={this.handleClick}
+          onKeyDown={this.handleClick}
         >
           <Menu />
         </div>

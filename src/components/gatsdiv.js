@@ -4,24 +4,11 @@ import SmallImageSVG from './smallimageSVG.js'
 import Variables from './variables.js'
 import SmallImage from './smallimage.js'
 
-const getSize = () => {
-    
-    var x = window.matchMedia(`${Variables.small}`)
-    if(x.matches) {
-        return (
-            true
-        )
-    } else {
-        return (
-            false
-        )
-    }
-}
 
 const picStyle = {
   imageContainer: {
     width: '25%',
-    maxWidth: '300px',
+    maxWidth: '250px',
   },
   image: {
     width: "100%",
@@ -33,7 +20,7 @@ const picStyle = {
   },
   image2: {
     width: '100%',
-    maxWidth: '600px',
+    maxWidth: '400px',
     alignSelf: 'center',
     margin: 'auto'
   },
