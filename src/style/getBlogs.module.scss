@@ -25,12 +25,15 @@
             flex-wrap: wrap;
             justify-content: space-around;
             width: 100%;
-            max-width: 550px;
-            margin: 20px;
+            max-width: 450px;
+            margin: 30px;
             text-decoration: none;
             border-bottom: 2px solid $darkGreen;
             padding-bottom: 20px;
             cursor: pointer;
+            @include desktop() {
+              margin: 40px;
+            }
           }
 .imageContainer {
   width: 50%;
@@ -46,7 +49,7 @@
             width: 100%;
             font-size: 1.8rem;
             text-shadow: 2px 2px darken($background, 10%);
-            margin: 0 0 10px 0;
+            margin: 0 0 20px 0;
           }
 .h3 {
             font-size: 1.5rem;
@@ -57,7 +60,7 @@
 .p {
             font-size: 1.2rem;
             @include desktop() {
-              font-size: 2rem;
+              font-size: 1.5rem;
             }
           }
 .meta {
