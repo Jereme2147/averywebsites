@@ -38,6 +38,11 @@
         margin: 30px 0;
         font-size: 1.3rem;
         border-left: 5px solid $lightBlue;
+        border-right: 2px solid $lightGreen;
+        border-top: 2px solid $lightGreen;
+        border-bottom: 2px solid $lightGreen;
+        border-radius: 10px;
+        background: $white;
         @include desktop() {
             font-size: 2rem;
             padding: 20px;

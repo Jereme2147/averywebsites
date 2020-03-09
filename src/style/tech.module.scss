@@ -24,7 +24,13 @@
         font-size: 1.3rem;
         padding: 5px;
         margin: 30px 0;
-        border-left: 10px solid $lightBlue;
+        // border-left: 10px solid $lightBlue;
+        border-left: 5px solid $lightBlue;
+        border-right: 2px solid $lightGreen;
+        border-top: 2px solid $lightGreen;
+        border-bottom: 2px solid $lightGreen;
+        border-radius: 10px;
+        background: $white;
         @include desktop(){
             font-size: 1.8rem;
             margin: 30px 0;

@@ -16,13 +16,13 @@ const Menu = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a href="#services">Services</a>
+            <a href="/#services">Services</a>
           </li>
           <li>
-            <a href="#pricing">Pricing</a>
+            <a href="/#pricing">Pricing</a>
           </li>
           <li>
-            <Link to="/">Developer Page</Link>
+            <a href="http://www.jeremedaniels.com/">Developer Page</a>
           </li>
         </ul>
       </div>

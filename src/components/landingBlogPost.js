@@ -8,7 +8,7 @@ const LandingBlogPost = () => {
       query {
         allMarkdownRemark(
           limit: 1
-          sort: { order: ASC, fields: frontmatter___number }
+          sort: { order: DESC, fields: frontmatter___number }
         ) {
           edges {
             node {

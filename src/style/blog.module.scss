@@ -23,9 +23,68 @@
     h3 {
         font-size: 1.5rem;
     }
+    h4 {  //for headers in the middle..
+        font-size: 1.9rem;
+        text-align: center;
+        text-shadow: 2px 2px 2px darken($background, 20%);
+
+    }
+    ul {
+        font-size: 1.5rem;
+        padding: 5px;
+        // border-left: 5px solid $lightBlue;
+        // border-right: 2px solid $lightGreen;
+        // border-top: 2px solid $lightGreen;
+        // border-bottom: 2px solid $lightGreen;
+        border-radius: 10px;
+        background: $white;
+        width: 90%;
+        margin: 10px auto 10px auto;
+        padding: 10px;
+        // border: 2px solid $lightBlue;
+        list-style: none;
+        a {
+            color: $submit;
+            text-decoration: none;
+        }
+        li {
+            padding: 10px 0;
+        }
+        @include desktop() {
+            margin: 30px auto 30px auto;
+            padding: 15px;
+        }
+    }
     p {
         font-size: 1.5rem;
         padding: 5px;
+        // border-left: 5px solid $lightBlue;
+        // border-right: 2px solid $lightGreen;
+        // border-top: 2px solid $lightGreen;
+        // border-bottom: 2px solid $lightGreen;
+        border-radius: 10px;
+        background: $white;
+        width: 90%;
+        margin: 10px auto 10px auto;
+        padding: 10px;
+        a {
+            color: $submit;
+            text-decoration: none;
+        }
+        span {
+            width: 90%;
+            margin: 20px;
+            box-shadow: 5px 5px 5px darken($white, 10%);
+            @include desktop() {
+                width: 70%;
+                margin: 30px;
+            }
+        }
+        @include desktop() {
+            margin: 30px auto 30px auto;
+            padding: 15px;
+        }
+        // margin: auto;
     }
 }
 .imgOne {
@@ -39,4 +98,7 @@
     align-self: center;
     box-shadow: 2px 2px 2px darken($background, 10%);
     margin: 10px 0 20px 0;
+    @include desktop() {
+        width: 30%;
+    }
 }

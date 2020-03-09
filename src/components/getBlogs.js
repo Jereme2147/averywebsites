@@ -7,7 +7,7 @@ import style from "../style/getBlogs.module.scss"
 const GetBlogs = () => {
     const data = useStaticQuery(graphql`
       query {
-        allMarkdownRemark(sort: { fields: frontmatter___number, order: ASC }) {
+        allMarkdownRemark(sort: { fields: frontmatter___number, order: DESC }) {
           nodes {
             frontmatter {
               title
