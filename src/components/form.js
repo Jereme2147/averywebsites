@@ -9,7 +9,9 @@ const Form = () => {
         id="contact"
         method="POST"
         data-netlify="true"
+        netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="Contact" />
         <p>
           <label>
             <input type="text" name="name" placeholder="Your name here" />
@@ -25,8 +27,10 @@ const Form = () => {
             <textarea name="message" placeholder="Message"></textarea>
           </label>
         </p>
-        <p style={{display: 'flex', justifyContent: 'center'}}>
-          <button type="submit" name="submit">Send</button>
+        <p style={{ display: "flex", justifyContent: "center" }}>
+          <button type="submit" name="submit">
+            Send
+          </button>
         </p>
       </form>
     )
