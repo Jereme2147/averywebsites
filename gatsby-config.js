@@ -1,4 +1,5 @@
 // import variables from './src/components/variables.js'
+//npm rebuild if you update NODE
 
 module.exports = {
   siteMetadata: {

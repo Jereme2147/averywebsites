@@ -6,6 +6,7 @@ const Form = () => {
       <form
         className={style.form}
         name="contact"
+        id="contact"
         method="POST"
         data-netlify="true"
       >
@@ -25,7 +26,7 @@ const Form = () => {
           </label>
         </p>
         <p style={{display: 'flex', justifyContent: 'center'}}>
-          <button type="submit">Send</button>
+          <button type="submit" name="submit">Send</button>
         </p>
       </form>
     )
