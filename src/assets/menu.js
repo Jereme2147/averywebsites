@@ -21,9 +21,9 @@ const Menu = () => {
           <li>
             <a href="/#pricing">Pricing</a>
           </li>
-          <li>
+          {/* <li>
             <a href="http://www.jeremedaniels.com/">Developer Page</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     )

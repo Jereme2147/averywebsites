@@ -12,5 +12,6 @@ This is my personal portfolio page.  It's built with GatsbyJs using a "Markdown"
 
 The Portfolio page is very fast and built to perform on a mobile device first, then desktop. 
 
-[Portfolio Link](http://www.jeremedaniels.com/).
+[Portfolio Link](https://www.code-wod.com/jereme).
+Note: this site has now been moved to a folder within another site.  If you go to jeremedaniels.com, it now redirects here.
 If you follow the link you'll notice a low quality image shows up immediately while the full image is loading.  If your needs require a lot of images, GatsbyJs is almost always the  best choice. 
