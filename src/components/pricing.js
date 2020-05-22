@@ -7,7 +7,7 @@ const Pricing = () => {
         <h2>Pricing</h2>
         <div className={style.inner}>
           <div className={style.block}>
-            <h4>Pacakges for all budgets:</h4>
+            <h4>Packages for all budgets:</h4>
             {/* <h4>Project Planning</h4> */}
             <p>
               <span>-Basic-</span>
@@ -26,7 +26,7 @@ const Pricing = () => {
             <ul>
               <li>Keyword Analysis</li>
               <li>Google Profile Management</li>
-              <li>Targed Keyword Collection</li>
+              <li>Targeted Keyword Collection</li>
               <li>1 Blog Post Per Month</li>
             </ul>
           </div>
