@@ -1,10 +1,10 @@
 ---
 title: "Blue Ridge Propane NC"
 date: "3.4.2020"
-number: '4'
+number: '5'
 section: projects
 technology: 'Built with GatsbyJs'
-featuredImage: brp-desktop.jpg
+featuredImage: brp-desktop.jpg 
 cover_image: brp-mobile.jpg
 ---
 [Blue Ridge Propane](https://www.blueridgepropanenc.net/): Constructed (or re-constructed) in GatsbyJs.  This site was originally created with pure HTML/CSS/JS and PHP. When we decided to add a blog, the choice was GatsbyJs.  The design and look was not changed other than the addition of a blog and collapsable mobile menu. 
