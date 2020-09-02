@@ -16,7 +16,8 @@ const IndexPage = () => (
     <Tech />
     <About />
     <LandingBlogPost />
-  </Layout>
+  </Layout> 
 )
 
 export default IndexPage
+ 

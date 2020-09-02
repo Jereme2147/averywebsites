@@ -21,13 +21,15 @@ const Footer = () => {
           </ul>
         </div>
         <div className={style.other}>
-            <Logo />
+          <Logo />
           <p>
             Avery Websites © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a>
           </p>
-          <a href="mailto:#">averywebsites@jeremedaniels.com</a>
+          <a href="mailto:averywebsites@jeremedaniels.com">
+            averywebsites@jeremedaniels.com
+          </a>
         </div>
       </footer>
     )
