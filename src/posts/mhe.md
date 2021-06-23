@@ -17,6 +17,7 @@ The images and many other things are stored in a Contentful CMS (content managme
 ## The site is built with a "Mobile First Design". 
 ![Mobile Screen shot](mhe-mobile-1.png)
 ### Full screen Mobile menu makes navagation on mobile devices easy.
+
 ![Mobile Screen Shot](mhe-mobile-2.png)
 
 Take a look at [Mountain Home Exteriors](https://www.mountainhomeext.com/) new site. They can help you with any roofing needs. 
