@@ -54,22 +54,22 @@ module.exports = {
         icon: `src/images/fav.jpg`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Alatsi`,
-          },
-          {
-            family: `Hind Madurai`,
-          },
-          {
-            family: "Rasa",
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Alatsi`,
+    //       },
+    //       {
+    //         family: `Hind Madurai`,
+    //       },
+    //       {
+    //         family: "Rasa",
+    //       },
+    //     ],
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

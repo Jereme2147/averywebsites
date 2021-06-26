@@ -70,6 +70,7 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     />
   )
+  
 }
 
 SEO.defaultProps = {

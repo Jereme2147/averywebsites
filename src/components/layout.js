@@ -19,7 +19,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.site.siteMetadata.title}>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Alatsi:wght@200;400;700&family=Rasa:wght@400;900&display=swap"
+          rel="stylesheet"
+        />
+      </Header>
       <div className={style.container}>
         <main>{children}</main>
         <Footer />
