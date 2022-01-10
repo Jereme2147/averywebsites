@@ -11,7 +11,7 @@ const BlogPage = () => {
     return (
       <Layout>
         <SEO title="Blog Page" />
-        <Banner banner={Variables.blogPage} />
+        <Banner banner={Variables.landingBanner} />
         <GetBlogs />
       </Layout>
     )

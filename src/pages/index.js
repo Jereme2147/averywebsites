@@ -12,11 +12,11 @@ import About from '../components/about.js'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Banner banner={Variables.landingBanner} />
-    <Tech />
+    <Banner banner={Variables.blogPage} />
     <About />
+    <Tech />
     <LandingBlogPost />
-  </Layout> 
+  </Layout>
 )
 
 export default IndexPage

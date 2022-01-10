@@ -10,12 +10,12 @@ const Pricing = () => {
             <h4>Packages for all budgets:</h4>
             {/* <h4>Project Planning</h4> */}
             <p>
-              <span>-Basic-</span>
+              <span>-Most Popular-</span>
             </p>
             <ul>
               <li>$150 Per Month</li>
-              <li>$500 Down</li>
-              <li>2 Page Site</li>
+              {/* <li>$500 Down</li> */}
+              <li>5 Page Site</li>
               <li>24/7 Customer Service</li>
               <li>Unlimited Edits</li>
             </ul>
@@ -24,10 +24,10 @@ const Pricing = () => {
           <div className={style.block}>
             <h4>Includes</h4>
             <ul>
-              <li>Keyword Analysis</li>
-              <li>Google Profile Management</li>
-              <li>Targeted Keyword Collection</li>
-              <li>1 Blog Post Per Month</li>
+              <li>Fast Custom Website</li>
+              <li>Domain Name</li>
+              <li>Web Hosting</li>
+              <li>Optional blog and social media management availible</li>
             </ul>
           </div>
         </div>
